@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge three</title>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;">Creating a form </h1>
+  </header>
+  <main style="text-align: center;">
+    <form action="">
+      <div style="margin: 8px 5px;">
+          <label for="name">Name</label>
+          <input type="text" placeholder="enter your name" name="name" id="name" required>
+      </div>
+      <div style="margin: 8px 5px;>
+          <label for="name">Lastname</label>
+          <input type="text" placeholder="enter your lastname" name="lastname" id="lastname" required>
+      </div>
+      <div style="margin: 8px 5px;>
+        <label for="name">Age</label>
+        <input type="number"  name="age" min="18" max="80" id="age" required>
+      </div>
+      <div style="margin: 8px 5px;>
+        <label for="sex">Sex</label>
+        <select name="sex" id="sex" required>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      </div>
+      <div style="margin: 8px 5px;>
+          <label for="dni">Enter your DNI</label>
+        <input type="text" placeholder="enter your DNI" name="dni" pattern="[a-z0-9._%+-]{8}" id="dni"  required>
+      </div>
+      <div style="margin: 8px 5px;>
+          <label for="email">Email</label>
+          <input type="email" placeholder="enter your email" name="age" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      </div>
+        <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer></footer>
+</body>
+</html>
