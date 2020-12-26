@@ -61,6 +61,10 @@ textarea{
   line-height: 16px;
 }
 
+textarea:hover{
+  border: 1.2px solid #2E65DC;  
+}
+
 textarea:focus{
   outline: none;
   border: 1px solid #E56399;
@@ -79,6 +83,10 @@ button{
   margin-left: auto;
   display: block;
   margin: 15px auto;
+}
+
+button:hover{
+  border: 1px solid #2E65DC;  
 }
 
 button:active{
